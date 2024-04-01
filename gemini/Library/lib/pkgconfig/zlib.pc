@@ -1,0 +1,13 @@
+prefix=D:/_2.Programming/_2.VisualCode/Gemini/gemini/Library
+exec_prefix=D:/_2.Programming/_2.VisualCode/Gemini/gemini/Library
+libdir=D:/_2.Programming/_2.VisualCode/Gemini/gemini/Library/lib
+sharedlibdir=D:/_2.Programming/_2.VisualCode/Gemini/gemini/Library/lib
+includedir=D:/_2.Programming/_2.VisualCode/Gemini/gemini/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
